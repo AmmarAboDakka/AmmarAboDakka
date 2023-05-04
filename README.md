@@ -15,28 +15,6 @@ A Software developer from Syria
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=ammarabodakka&limit=5&theme=juicyfresh&combine_all_yearly_contributions=true)
 
-### 😂 Random Dev Meme
-![](<div>
-  <h3>Random Dev Meme</h3>
-  <img id="dev-meme" src="" width="512px">
-</div>
-
-<script>
-  // Make a GET request to the DevHumor API
-  fetch('https://devhumor.com/api/random')
-    .then(response => response.json())
-    .then(data => {
-      // Set the image source to the URL returned by the API
-      const memeImage = document.getElementById('dev-meme');
-      memeImage.src = data.media.url;
-    })
-    .catch(error => {
-      console.error('Error fetching meme:', error);
-    });
-</script>)
-
-
----
 
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
